@@ -1,0 +1,133 @@
+body{
+  background-color:none;
+  }
+  .grid_item{
+    border-width:1px 3px;
+    border-radius:4px;
+    padding:20px;
+    margin:none;
+  }
+  #container{
+    display: grid;
+    grid-gap:1px;
+    grid-auto-rows:minmax(60px,auto);
+
+  }
+  #Header{
+    display: grid;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    text-align:right;
+    background-image: url("http://www.princeton.edu/~mostafa/images/cv.jpg");
+    background-repeat:no-repeat;
+    background-size: 1850px 200px;
+  }
+  #myname{
+    font-size: 40px;
+  }
+  #Aside{
+    display: grid;
+    grid-column:1/2;
+    grid-row:2/10;
+    text-align: left;
+    background-color:#f1f1f1;
+    }
+  #main{
+    grid-column:2/7;
+    grid-row:2/8;
+    text-align: left;
+    background-color:none;
+    }
+  #Footer{
+    grid-column:2/7;
+    grid-row:8/10;
+    border-top: 3px solid blue;
+    text-align: left;
+    background-color:#f1f1f1;
+    font-size: 30px;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: none;
+    padding: 20px;
+    font-size: 24px;
+  } 
+  .part2{
+    background-color: aqua;
+    margin: none;
+    padding: 20px;
+  }
+  .myimg {
+    border-radius: 50%;
+  }
+  .myname{
+    background-color: lightgrey;
+    font-size: 50px;
+    text-align: center;
+  }
+  .aboutme{
+    background-color: lightgrey;
+  }
+  .WorkExperience{
+    background-color: lightgrey;
+  }
+  #ProfessinalExperieanc {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #ProfessinalExperieanc td, #ProfessinalExperieanc th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #ProfessinalExperieanc tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #ProfessinalExperieanc tr:hover {background-color: #ddd;}
+  
+  #ProfessinalExperieanc th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#333333;
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#5f5f5f;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  table {
+    border-collapse: collapse;
+    width: 25%;
+  }
+    
+  th, td {
+  text-align: left;
+  padding: 8px;
+  }
+  .Additionalinformation{
+    background-color: lightgrey;
+  }
+  .contact{
+    background-color: lightgrey;
+  }
